@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import ru.mironov.spring.SpringBoot.service.UserService;
-import ru.mironov.spring.SpringBoot.users.User;
+import ru.mironov.spring.SpringBoot.model.User;
 import java.util.List;
 
 @Controller

@@ -3,7 +3,7 @@ package ru.mironov.spring.SpringBoot.service;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import ru.mironov.spring.SpringBoot.dao.UserDao;
-import ru.mironov.spring.SpringBoot.users.User;
+import ru.mironov.spring.SpringBoot.model.User;
 import java.util.List;
 
 @Service

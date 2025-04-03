@@ -1,4 +1,4 @@
-package ru.mironov.spring.SpringBoot.users;
+package ru.mironov.spring.SpringBoot.model;
 
 import jakarta.persistence.*;
 
@@ -11,16 +11,13 @@ public class User {
     @Column(name = "id")
     private int id;
 
-    @Column(name = "name")
     private String name;
 
     @Column(name = "sur_name")
     private String surname;
 
-    @Column(name = "age")
     private int age;
 
-    @Column(name = "email")
     private String email;
 
     public User() {

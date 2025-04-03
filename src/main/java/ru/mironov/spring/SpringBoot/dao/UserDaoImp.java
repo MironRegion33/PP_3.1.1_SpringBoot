@@ -3,7 +3,7 @@ package ru.mironov.spring.SpringBoot.dao;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
-import ru.mironov.spring.SpringBoot.users.User;
+import ru.mironov.spring.SpringBoot.model.User;
 import java.util.List;
 
 @Repository

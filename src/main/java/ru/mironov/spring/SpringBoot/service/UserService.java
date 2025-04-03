@@ -1,6 +1,6 @@
 package ru.mironov.spring.SpringBoot.service;
 
-import ru.mironov.spring.SpringBoot.users.User;
+import ru.mironov.spring.SpringBoot.model.User;
 
 import java.util.List;
 
